@@ -129,9 +129,6 @@
         -->
         <!-- CHARTBOOST -->
 
-        <activity
-            android:name=".BannerActivity"
-            android:label="@string/title_activity_banner"></activity>
     </application>
 
 </manifest>
