@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "4g"
+    }
+
+    defaultConfig {
+        applicationId "com.aBasic.flappytrump"
+        minSdkVersion 14
+        targetSdkVersion 23
+        multiDexEnabled true
+
+        ndk {
+            moduleName "player_shared"
+        }
+    }
+
+    sourceSets.main {
+        jniLibs.srcDir 'libs'
+        jni.srcDirs = []
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/dagger-2.7.jar')
+    compile files('libs/javax.inject-1.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    // compile files('libs/support-v4-19.0.1.jar')
+    compile 'com.google.android.gms:play-services:11.4.2'
+    compile 'com.google.android.gms:play-services-ads:11.4.2'
+    compile 'com.google.firebase:firebase-core:11.4.2'
+}
+
+
+apply plugin: 'com.google.gms.google-services'

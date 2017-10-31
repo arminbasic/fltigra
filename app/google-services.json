@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "804750463653",
+    "firebase_url": "https://flappy-trump-d9a76.firebaseio.com",
+    "project_id": "flappy-trump-d9a76",
+    "storage_bucket": "flappy-trump-d9a76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804750463653:android:ca1f1e5a82e6e421",
+        "android_client_info": {
+          "package_name": "com.aBasic.flappytrump"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804750463653-q4tmqrppqt27ggksgqcvskpesa1kfhtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA96H6n3AXn_SfKODirr7RIgR37aaY6eXw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+#Mon Oct 30 22:54:40 CET 2017
+base.0=C\:\\Users\\basic\\AndroidStudioProjects\\flapitramp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0c0cba609c9f90f2f12cd99805e56f2f40556a8c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\basic\\AndroidStudioProjects\\flapitramp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_fab44250b36fdb50083ffd00d5b65db839d25aa5\\classes.dex
+base.1=C\:\\Users\\basic\\AndroidStudioProjects\\flapitramp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_fab44250b36fdb50083ffd00d5b65db839d25aa5
+file.0=C\:\\Users\\basic\\AndroidStudioProjects\\flapitramp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0c0cba609c9f90f2f12cd99805e56f2f40556a8c\\classes.dex

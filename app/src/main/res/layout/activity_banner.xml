@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aBasic.flappytrump.BannerActivity">
+
+    <org.cocos2dx.lib.Cocos2dxGLSurfaceView
+        android:id="@+id/game_gl_surfaceview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></org.cocos2dx.lib.Cocos2dxGLSurfaceView>
+
+
+    <!-- view for AdMob Banner Ad -->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5746192018243407/1409803411" />
+
+</RelativeLayout>
